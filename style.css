@@ -12,9 +12,11 @@ body {
   font-family: 'Inconsolata', monospace;
   background-color: var(--minimal-blue);
 }
+
 div {
   /* border-radius: .25em; */
 }
+
 .navbar {
   margin-top: 0em;
   position: fixed;
@@ -24,11 +26,14 @@ div {
   animation: from-top 1000ms forwards;
   opacity: 0;
 }
+
 @keyframes from-top {
-  from{
+  from {
     transform: translateY(-3em);
     opacity: 0;
-  } to {
+  }
+
+  to {
     transform: translateY(0);
     opacity: 1;
   }
@@ -51,35 +56,37 @@ ul li a:hover::after {
   transform: scaleX(1);
   transform-origin: left;
 }
-.intro{
+
+.intro {
   /* margin-top: 5em;
   margin-bottom: 3em; */
   padding-top: 4em;
 }
 
-#welcome {
+#welcome {}
 
-}
-#roles{
+#roles {}
 
-}
-#proficiencies {
-}
+#proficiencies {}
+
 .projects {
   animation: from-below 1000ms forwards;
   animation-delay: 800ms;
   opacity: 0;
 }
+
 @keyframes from-below {
   from {
     opacity: 0;
     transform: translateY(5em);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
+
 #gallery {
   background-color: var(--minimal-yellow);
 }
@@ -88,7 +95,8 @@ ul li a:hover::after {
   background-color: var(--minimal-aqua);
   margin: 2em 0 4em 0;
 }
-#socials img{
+
+#socials img {
   width: 3em;
   height: 3em;
   filter: brightness(10);
@@ -97,35 +105,42 @@ ul li a:hover::after {
   animation-delay: 800ms;
   opacity: 0;
 }
+
 @keyframes fade-in {
-  to{
+  to {
     opacity: 1;
   }
 }
-#socials img:hover{
+
+#socials img:hover {
   filter: brightness(1);
 }
+
 #opening-text {
   background-color: var(--minimal-orange);
   animation: from-right 1000ms forwards;
   opacity: 0;
   animation-delay: 400ms;
 }
+
 @keyframes from-right {
-  from{
+  from {
     opacity: 0;
     transform: translateX(7em);
   }
+
   to {
     opacity: 1;
     transform: rotateX(0);
   }
 }
+
 .contact {
   margin-top: 3em;
   color: white;
 }
-.contact h1{
+
+.contact h1 {
   margin-left: 40%;
 }
 
@@ -136,15 +151,17 @@ ul li a:hover::after {
   outline: none;
   background-color: var(--minimal-yellow);
 }
-.card-img-top{
+
+.card-img-top {
   margin-top: 3em;
 }
-.card-body {
-  margin-top:3em;
-}
-.btn {
 
+.card-body {
+  margin-top: 3em;
 }
+
+.btn {}
+
 .curr-project {
   background-color: var(--minimal-aqua);
 }
