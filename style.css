@@ -52,7 +52,7 @@ ul li a::after {
   transform-origin: right;
 }
 
-ul li a:hover::after {
+.navbar ul li a:hover::after {
   transform: scaleX(1);
   transform-origin: left;
 }
@@ -62,6 +62,16 @@ ul li a:hover::after {
   margin-bottom: 3em; */
   padding-top: 4em;
 }
+.intro ul li a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--minimal-blue);
+  transition: .2s;
+}
+.intro ul li a:hover{
+  color: var(--minimal-red);
+}
+
 
 #welcome {}
 
@@ -100,7 +110,7 @@ ul li a:hover::after {
   width: 3em;
   height: 3em;
   filter: brightness(10);
-  transition: .3s;
+  transition: .15s;
   animation: fade-in 800ms forwards;
   animation-delay: 800ms;
   opacity: 0;
@@ -159,9 +169,26 @@ ul li a:hover::after {
 .card-body {
   margin-top: 3em;
 }
+#learnmore {
+  border: var(--minimal-blue);
+  background: var(--minimal-blue);
+}
 
+#learnmore:hover{
+  border:var(--minimal-red);
+  background: var(--minimal-red);
+}
 .btn {}
 
 .curr-project {
   background-color: var(--minimal-aqua);
+}
+
+.contact a {
+  text-decoration: none;
+  color: var(--minimal-aqua);
+  transition: .2s;
+}
+.contact a:hover{
+  color: var(--minimal-red);
 }
