@@ -69,7 +69,7 @@ ul li a::after {
   transition: .2s;
 }
 .intro ul li a:hover{
-  color: var(--minimal-red);
+  color: var(--minimal-aqua);
 }
 
 
