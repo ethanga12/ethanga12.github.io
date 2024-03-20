@@ -56,8 +56,8 @@ export function V0devTemplate() {
           </div>
         </div>
       </div>
-      <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-black">Projects <br /><br /></h1>
-      <Tabs className="w-full" defaultValue="software">
+      <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-black">Projects<br /><br /></h1>
+      <Tabs className="w-full" defaultValue="professional">
             <TabsList className="grid w-full grid-cols-3">
               <TabsTrigger value="professional">Professional</TabsTrigger>
               <TabsTrigger value="research">Research</TabsTrigger>
