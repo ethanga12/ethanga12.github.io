@@ -3,6 +3,7 @@
  * @see https://v0.dev/t/MElRdKn8dNb
  */
 import { TabsTrigger, TabsList, TabsContent, Tabs } from "@/components/ui/tabs"
+import Image from "next/image"
 
 export function Component() {
   return (
@@ -17,7 +18,7 @@ export function Component() {
             <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">Personal Task Manager</h3>
             <p className="text-gray-500 dark:text-gray-400">Simple task manager app</p>
           </div>
-          <img
+          <Image
             alt="Personal Task Manager"
             className="mx-auto aspect-[2/1] overflow-hidden rounded-lg object-cover object-center"
             height="400"
@@ -37,7 +38,7 @@ export function Component() {
             <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">Recipe Finder</h3>
             <p className="text-gray-500 dark:text-gray-400">Search and save your favorite recipes</p>
           </div>
-          <img
+          <Image
             alt="Recipe Finder"
             className="mx-auto aspect-[2/1] overflow-hidden rounded-lg object-cover object-center"
             height="400"
@@ -59,7 +60,7 @@ export function Component() {
               <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">Sentiment Analysis</h3>
               <p className="text-gray-500 dark:text-gray-400">Analyzing the sentiment of customer reviews</p>
             </div>
-            <img
+            <Image
               alt="Sentiment Analysis"
               className="mx-auto aspect-[2/1] overflow-hidden rounded-lg object-cover object-center"
               height="400"
@@ -81,7 +82,7 @@ export function Component() {
               <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">Image Classification</h3>
               <p className="text-gray-500 dark:text-gray-400">Classifying images using deep learning</p>
             </div>
-            <img
+            <Image
               alt="Image Classification"
               className="mx-auto aspect-[2/1] overflow-hidden rounded-lg object-cover object-center"
               height="400"
@@ -107,7 +108,7 @@ export function Component() {
             <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">Stock Price Prediction</h3>
             <p className="text-gray-500 dark:text-gray-400">Forecasting stock prices with machine learning</p>
           </div>
-          <img
+          <Image
             alt="Stock Price Prediction"
             className="mx-auto aspect-[2/1] overflow-hidden rounded-lg object-cover object-center"
             height="400"
@@ -129,7 +130,7 @@ export function Component() {
             <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">Chatbot</h3>
             <p className="text-gray-500 dark:text-gray-400">Building a conversational AI chatbot</p>
           </div>
-          <img
+          <Image
             alt="Chatbot"
             className="mx-auto aspect-[2/1] overflow-hidden rounded-lg object-cover object-center"
             height="400"
@@ -153,7 +154,7 @@ export function Component() {
               Personalized music recommendations using machine learning
             </p>
           </div>
-          <img
+          <Image
             alt="Music Recommendation System"
             className="mx-auto aspect-[2/1] overflow-hidden rounded-lg object-cover object-center"
             height="400"
@@ -161,10 +162,10 @@ export function Component() {
             width="800"
           />
           <div className="space-y-4 text-lg max-w-prose">
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500 dark:text-gray-400"> 
               The Music Recommendation System project showcases the application of machine learning algorithms to create
               personalized music recommendations for users based on their listening preferences. The system analyzes the
-              user's listening history, music genres, and favorite artists to generate custom-tailored playlists and
+              users listening history, music genres, and favorite artists to generate custom-tailored playlists and
               suggest new songs and albums that the user is likely to enjoy. The project includes a web interface where
               users can explore their personalized recommendations, discover new music, and create their own playlists.
               The Music Recommendation System enhances the music discovery experience, helping users find the perfect
@@ -175,7 +176,7 @@ export function Component() {
             <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">Fraud Detection</h3>
             <p className="text-gray-500 dark:text-gray-400">Detecting fraudulent transactions with machine learning</p>
           </div>
-          <img
+          <Image
             alt="Fraud Detection"
             className="mx-auto aspect-[2/1] overflow-hidden rounded-lg object-cover object-center"
             height="400"
